@@ -8,8 +8,8 @@ export default function NavBar() {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Logo />
         <div className="flex gap-2">
-          <ButtonHeader icone={<AiOutlineLock/>} nome="CADASTRE-SE" url="/cadastrar"/>
-          <ButtonHeader icone={<AiOutlineUser/>} nome="ENTRAR" url="/entrar"/>
+          <ButtonHeader icone={<AiOutlineLock/>} nome="CADASTRE-SE" url="/login/cadastrar"/>
+          <ButtonHeader icone={<AiOutlineUser/>} nome="ENTRAR" url="login/entrar"/>
         </div>
       </div>
       <div className="bg-purple-500 flex justify-center py-3">
